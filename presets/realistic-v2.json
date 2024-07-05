@@ -1,0 +1,55 @@
+{
+    "default_model": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "checkpoint_downloads": {
+        "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
+    },
+    "default_refiner": "None",
+    "default_refiner_switch": 0.8,
+    "default_loras": [
+        [
+            true,
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+            0.25
+        ],
+        [
+            true,
+            "add-detail-xl.safetensors",
+            2.0
+        ],
+        [
+            true,
+            "Background_Detail_v3.safetensors",
+            2.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "lora_downloads": {
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+        "add-detail-xl.safetensors": "https://huggingface.co/PvDeep/Add-Detail-XL/resolve/main/add-detail-xl.safetensors",
+        "Background_Detail_v3.safetensors": "https://civitai.com/api/download/models/137901"
+    },
+    "default_cfg_scale": 4.0,
+    "default_sample_sharpness": 6.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Quality",
+    "default_prompt": "full body, 18-years old beautiful woman, young, innocent woman, (gray eyes:1.1), natural blonde hair, almond-shaped eyes, highly detailed, sexy, pores, perfect face, small nose, narrow cheekbones, child's face, posing, no make up, (big breast:1.1)",
+    "default_prompt_negative": "blurry, face asymmetry, eyes asymmetry, deformed eyes, open mouth, unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured, (deformed eyes, bad eyes), (bad teeth, deformed teeth, deformed lips), (worst quality, low quality, blurry:1.2)",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Enhance",
+        "Fooocus Sharp"
+    ],
+    "default_aspect_ratio": "1280*1280",
+    "embeddings_downloads": {},
+    "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
+}
